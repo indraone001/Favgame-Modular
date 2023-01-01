@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		0C0D89D98E6635DBE257C884 /* Pods_Favgame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Favgame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4A8D2B4EB7D49F5801A404 /* Pods-Favgame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favgame.release.xcconfig"; path = "Target Support Files/Pods-Favgame/Pods-Favgame.release.xcconfig"; sourceTree = "<group>"; };
-		69945C9F295ACFEF00CD014D /* Favgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Favgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69945C9F295ACFEF00CD014D /* Favgame-Modular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favgame-Modular.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69945CA2295ACFEF00CD014D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69945CA4295ACFEF00CD014D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		69945CAB295ACFF100CD014D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +46,6 @@
 				B5011EF47DA63E3B92990783 /* Pods-Favgame.debug.xcconfig */,
 				4A4A8D2B4EB7D49F5801A404 /* Pods-Favgame.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -71,7 +70,7 @@
 		69945CA0295ACFEF00CD014D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69945C9F295ACFEF00CD014D /* Favgame.app */,
+				69945C9F295ACFEF00CD014D /* Favgame-Modular.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69945C9E295ACFEF00CD014D /* Favgame */ = {
+		69945C9E295ACFEF00CD014D /* Favgame-Modular */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69945CB3295ACFF100CD014D /* Build configuration list for PBXNativeTarget "Favgame" */;
+			buildConfigurationList = 69945CB3295ACFF100CD014D /* Build configuration list for PBXNativeTarget "Favgame-Modular" */;
 			buildPhases = (
 				50D7C3C5A7AC83FAFDAB074B /* [CP] Check Pods Manifest.lock */,
 				69945C9B295ACFEF00CD014D /* Sources */,
@@ -123,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = Favgame;
+			name = "Favgame-Modular";
 			productName = Favgame;
-			productReference = 69945C9F295ACFEF00CD014D /* Favgame.app */;
+			productReference = 69945C9F295ACFEF00CD014D /* Favgame-Modular.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69945C9A295ACFEF00CD014D /* Build configuration list for PBXProject "Favgame" */;
+			buildConfigurationList = 69945C9A295ACFEF00CD014D /* Build configuration list for PBXProject "Favgame-Modular" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69945C9E295ACFEF00CD014D /* Favgame */,
+				69945C9E295ACFEF00CD014D /* Favgame-Modular */,
 			);
 		};
 /* End PBXProject section */
@@ -387,6 +386,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,6 +415,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69945C9A295ACFEF00CD014D /* Build configuration list for PBXProject "Favgame" */ = {
+		69945C9A295ACFEF00CD014D /* Build configuration list for PBXProject "Favgame-Modular" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69945CB1295ACFF100CD014D /* Debug */,
@@ -440,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69945CB3295ACFF100CD014D /* Build configuration list for PBXNativeTarget "Favgame" */ = {
+		69945CB3295ACFF100CD014D /* Build configuration list for PBXNativeTarget "Favgame-Modular" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69945CB4295ACFF100CD014D /* Debug */,

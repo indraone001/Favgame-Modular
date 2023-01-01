@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Favgame.xcodeproj">
+      location = "group:/Users/indrawan/Developer/IOSEndToEnd/FavgameModular/Favgame-Modular.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
