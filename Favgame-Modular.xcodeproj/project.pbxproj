@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D0E6BEB97BA4C978359CA87 /* Pods_Favgame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0D89D98E6635DBE257C884 /* Pods_Favgame.framework */; };
 		69945CA3295ACFEF00CD014D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69945CA2295ACFEF00CD014D /* AppDelegate.swift */; };
 		69945CA5295ACFEF00CD014D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69945CA4295ACFEF00CD014D /* SceneDelegate.swift */; };
 		69945CAC295ACFF100CD014D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69945CAB295ACFF100CD014D /* Assets.xcassets */; };
 		69945CAF295ACFF100CD014D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69945CAD295ACFF100CD014D /* LaunchScreen.storyboard */; };
 		69945CC1295ADAAD00CD014D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69945CC0295ADAAD00CD014D /* BaseViewController.swift */; };
+		E4AD3242803A3C5215E4A980 /* Pods_Favgame_Modular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431A6C83423B253D3F11A440 /* Pods_Favgame_Modular.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C0D89D98E6635DBE257C884 /* Pods_Favgame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Favgame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0644375CE867DC0D6443C782 /* Pods-Favgame-Modular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favgame-Modular.release.xcconfig"; path = "Target Support Files/Pods-Favgame-Modular/Pods-Favgame-Modular.release.xcconfig"; sourceTree = "<group>"; };
+		38E02BB1CA5A0F0939692878 /* Pods-Favgame-Modular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favgame-Modular.debug.xcconfig"; path = "Target Support Files/Pods-Favgame-Modular/Pods-Favgame-Modular.debug.xcconfig"; sourceTree = "<group>"; };
+		431A6C83423B253D3F11A440 /* Pods_Favgame_Modular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Favgame_Modular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4A8D2B4EB7D49F5801A404 /* Pods-Favgame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favgame.release.xcconfig"; path = "Target Support Files/Pods-Favgame/Pods-Favgame.release.xcconfig"; sourceTree = "<group>"; };
 		69945C9F295ACFEF00CD014D /* Favgame-Modular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favgame-Modular.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69945CA2295ACFEF00CD014D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0E6BEB97BA4C978359CA87 /* Pods_Favgame.framework in Frameworks */,
+				E4AD3242803A3C5215E4A980 /* Pods_Favgame_Modular.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +47,8 @@
 			children = (
 				B5011EF47DA63E3B92990783 /* Pods-Favgame.debug.xcconfig */,
 				4A4A8D2B4EB7D49F5801A404 /* Pods-Favgame.release.xcconfig */,
+				38E02BB1CA5A0F0939692878 /* Pods-Favgame-Modular.debug.xcconfig */,
+				0644375CE867DC0D6443C782 /* Pods-Favgame-Modular.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -52,7 +56,7 @@
 		4FD091F6A118E4FEFE05E9DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C0D89D98E6635DBE257C884 /* Pods_Favgame.framework */,
+				431A6C83423B253D3F11A440 /* Pods_Favgame_Modular.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,7 +192,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Favgame-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Favgame-Modular-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -219,15 +223,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Favgame/Pods-Favgame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Favgame-Modular/Pods-Favgame-Modular-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Favgame/Pods-Favgame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Favgame-Modular/Pods-Favgame-Modular-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Favgame/Pods-Favgame-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Favgame-Modular/Pods-Favgame-Modular-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -373,7 +377,7 @@
 		};
 		69945CB4295ACFF100CD014D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5011EF47DA63E3B92990783 /* Pods-Favgame.debug.xcconfig */;
+			baseConfigurationReference = 38E02BB1CA5A0F0939692878 /* Pods-Favgame-Modular.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -402,7 +406,7 @@
 		};
 		69945CB5295ACFF100CD014D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A4A8D2B4EB7D49F5801A404 /* Pods-Favgame.release.xcconfig */;
+			baseConfigurationReference = 0644375CE867DC0D6443C782 /* Pods-Favgame-Modular.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
